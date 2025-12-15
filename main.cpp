@@ -1,19 +1,3 @@
-/*
-Fazer Library Management System 2.0 - avançado
-STL avançada, templates, ponteiros inteligentes, multithreading, arquivos binários, design patterns
-gerenciar livros (adicionar, remover, listar, buscar) com containers STL avançados (CHECK)
-persistência em arquivo binário e backup automático (CHECK)
-playlists de leitura compartilhadas via smart pointers (CHECK)
-operações concorrentes seguras com threads e mutex (CHECK)
-notificações via pattern observer (CHECK)
-criação de livros de diferentes tipos via factory (CHECK)
-tratamento robusto de erros com exceções (CHECK)
-interface de console completa com menus (CHECK)
-logs de operações com timestamps (CHECK)
-memória gerenciada corretamente (RAII + smart pointers) (CHECK)
-testar todas as funcionalidades em cenários combinados (adicionar, remover, notificar, ordenar, thread-safe)
-*/
-
 #include "menu.hpp"
 #include "file.hpp"
 #include "book_vector.hpp"
